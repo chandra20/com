@@ -1,0 +1,172 @@
+
+/*****************************
+  Newswire Custom Tan styles.css
+  Theme by AdaptiveThemes.com
+  
+  Don't touch these if you want the default tan blocks and highlights.
+  #333     very dark gray
+  #E1CAA1  tan
+  #e8e8e8  med tan
+  #F4ECDD  light tan
+******************************/
+
+#accessiblity a:hover,
+#accessiblity a:focus {
+background-color:#F4ECDD;
+color:#333;
+}
+
+#search-block-form .form-text {
+border-color:#E1CAA1;
+}
+
+.taxonomy-term-description {
+color:#CFB78E;
+}
+
+div.comment.odd {
+background-color:#e8e8e8;
+}
+
+.forum-topic-navigation {
+border-color:E1CAA1;
+}
+
+.block .title {
+color:#333;
+background-color:#f3f3f3;
+border-color:#E1CAA1;
+}
+
+.block > .block-wrapper {
+border-color:#E1CAA1;
+}
+
+tr.even {
+background-color:#fff;
+}
+
+tr.odd td.active {
+background-color:#333;
+}
+
+td.region,
+td.module,
+td.container {
+background-color:#f3f3f3;
+color:#333;
+}
+
+.resizable-textarea .grippie {
+background-color:#333;
+border-color:#dcdcdc;
+}
+
+.tabs ul.primary li a {
+background-color:#f3f3f3;
+border-color:#dcdcdc;
+color:#6e6e6e; font: bold 12px Helvetica, Arial, sans-serif; height:26px;
+}
+
+.tabs ul.primary li.active a {
+background-color:#FFF;
+border-color:#dcdcdc #dcdcdc #FFF;
+}
+
+.tabs ul.primary li a:hover {
+background-color:#e8e8e8;
+border-color:#dcdcdc;
+}
+
+div.comment.even,
+.book-navigation .page-links,
+.poll .bar,
+tr.odd {
+background-color:#f3f3f3;
+}
+
+#suckerfish a {
+background-color:transparent;
+color:#FFF;
+}
+
+#suckerfish a:active,
+#suckerfish a:hover {
+background-color:transparent;
+color:#FFF;
+}
+
+#primary-menu ul.links li a,
+#suckerfish ul.menu li li a:link,
+#suckerfish ul.menu li li a:visited {
+color:#FFF;
+}
+
+#suckerfish ul.menu li li.expanded a,
+#suckerfish ul.menu li li.expanded ul.menu a,
+#suckerfish ul.menu li li.expanded ul.menu li.expanded a {
+background-color: transparent;
+}
+
+#suckerfish ul.menu li ul a {
+color:#FFF;
+}
+
+#suckerfish ul.menu li ul a:active,
+#suckerfish ul.menu li ul a:hover {
+color:#FFF;
+text-decoration:none;
+}
+
+#suckerfish ul.menu li li.expanded a,
+#suckerfish ul.menu li li.expanded ul.menu a,
+#suckerfish ul.menu li li.expanded ul.menu li.expanded a {
+color:#FFF;
+}
+
+#suckerfish ul.menu li li.expanded a:active,
+#suckerfish ul.menu li li.expanded a:hover,
+#suckerfish ul.menu li li.expanded ul.menu a:active,
+#suckerfish ul.menu li li.expanded ul.menu a:hover,
+#suckerfish ul.menu li li.expanded ul.menu li.expanded a:active,
+#suckerfish ul.menu li li.expanded ul.menu li.expanded a:hover {
+color:#FFF;
+}
+
+div.node,
+.book-navigation .menu {
+border-color:#f3f3f3;
+}
+
+div.comment.comment-mine,
+.poll .bar .foreground {
+background-color:#dcdcdc;
+}
+
+.block ul li,
+#footer-message {
+color:#CFB78E;
+}
+
+thead th,
+input.text,
+input.title,
+textarea,
+select,
+fieldset,
+input.form-text,
+.tabs ul.primary,
+.tabs ul.secondary,
+.tabs ul.secondary li,
+.tabs ul.secondary a.active {
+border-color:#dcdcdc;
+}
+
+.nw-background-fill-light > .block-wrapper {
+background-color:#FFFAEF;
+}
+
+tr.info,tr.even td.active,
+.nw-background-fill-dark > .block-wrapper {
+background-color:#f3f3f3;
+}

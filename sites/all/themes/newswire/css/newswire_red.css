@@ -1,0 +1,46 @@
+
+/*****************************
+  Newswire Rubinator styles.css
+  Theme by AdaptiveThemes.com
+
+  #A00002  very dark red
+  #B20028  dark red
+******************************/
+
+#search-block-form .form-text {
+color:#B20028;
+}
+
+#secondary-menu {
+border-color:#B20028;
+}
+
+#main-navigation {
+background: transparent url(images/red-nav-bar.png) no-repeat left top;
+}
+
+#primary-menu ul.links li a,
+#suckerfish ul.menu li li a:link,
+#suckerfish ul.menu li li a:visited {
+background-color:#B20028;
+}
+
+#suckerfish ul.menu li ul a:active,
+#suckerfish ul.menu li ul a:hover {
+background-color:#A00002;
+}
+
+#suckerfish ul.menu li li.expanded a,
+#suckerfish ul.menu li li.expanded ul.menu a,
+#suckerfish ul.menu li li.expanded ul.menu li.expanded a {
+background-color:#B20028;
+}
+
+#suckerfish ul.menu li li.expanded a:active,
+#suckerfish ul.menu li li.expanded a:hover,
+#suckerfish ul.menu li li.expanded ul.menu a:active,
+#suckerfish ul.menu li li.expanded ul.menu a:hover,
+#suckerfish ul.menu li li.expanded ul.menu li.expanded a:active,
+#suckerfish ul.menu li li.expanded ul.menu li.expanded a:hover {
+background-color:#A00002;
+}

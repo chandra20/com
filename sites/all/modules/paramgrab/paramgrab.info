@@ -1,0 +1,8 @@
+core = "7.x"
+description = "Grab various fields for job portal by http://paramprojects.com"
+name = "paramgrab"
+package = "paramgrab"
+
+core = "7.x"
+project = "paramgrab"
+

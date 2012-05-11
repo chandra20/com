@@ -1,0 +1,60 @@
+
+/*****************************
+  Newswire Sunset styles.css
+  Theme by AdaptiveThemes.com
+  
+  #FF5300 Shiny bright ornage
+  #FF7C00 Matt orange
+******************************/
+
+#search-block-form .form-text {
+color:#FF7C00;
+}
+
+#secondary-menu {
+border-color:#FF7C00;
+}
+
+#main-navigation {
+/*background: transparent url(images/blue-nav-bar.png) repeat-x left top;*/ margin-top:-14px;
+}
+
+@-moz-document url-prefix() {
+  #main-navigation { margin:-24px 0 -2px 0; border:1px solid #e09f39; border-left:none; border-right:none; border-bottom:none;}
+}
+
+#primary-menu ul.links li a,
+#suckerfish ul.menu li li a:link,
+#suckerfish ul.menu li li a:visited {
+background-color:#e09f39; margin-left:10px;
+}
+
+#suckerfish ul.menu li ul a:active,
+#suckerfish ul.menu li ul a:hover {
+background-color:#ba7305;
+}
+
+#suckerfish ul.menu li li.expanded a,
+#suckerfish ul.menu li li.expanded ul.menu a,
+#suckerfish ul.menu li li.expanded ul.menu li.expanded a {
+background-color:#e09f39; 
+}
+
+@-moz-document url-prefix() {
+ #suckerfish ul.menu li li.expanded a,
+#suckerfish ul.menu li li.expanded ul.menu a,
+#suckerfish ul.menu li li.expanded ul.menu li.expanded a {
+background-color:#e09f39; margin-top:-2px; 
+}
+
+}
+
+
+#suckerfish ul.menu li li.expanded a:active,
+#suckerfish ul.menu li li.expanded a:hover,
+#suckerfish ul.menu li li.expanded ul.menu a:active,
+#suckerfish ul.menu li li.expanded ul.menu a:hover,
+#suckerfish ul.menu li li.expanded ul.menu li.expanded a:active,
+#suckerfish ul.menu li li.expanded ul.menu li.expanded a:hover {
+background-color:#ba7305;
+}

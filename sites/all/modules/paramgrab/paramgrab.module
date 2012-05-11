@@ -1,0 +1,25 @@
+<?php
+function paramgrab_node_presave($node){
+	if($node->type == 'feed_item' && isset($node->field_cityfilter['und'][0]['tid'])){
+		$filter=taxonomy_get_term_by_name('Filter By Title');
+		if(($pos = strrpos($node->title,"-"))===false&&$node->field_cityfilter['und'][0]['tid']!=$filter->tid) return;
+		if(($subc = trim(substr($node->title, $pos+1)))!=''){
+		$vname='cities';
+		$terms=taxonomy_get_term_by_name($subc);
+		$vd = taxonomy_vocabulary_machine_name_load($vname);
+		if(!$vd){
+			taxonomy_vocabulary_save((object) array('name' => t($vname),'machine_name'=> $vname,'hierarchy' => 0));
+			$vd = taxonomy_vocabulary_machine_name_load($vname);
+		}
+		foreach($terms as $term)
+		if($term->vid==$vd->vid){
+			$node->field_jobcity[$node->language][0]['tid']=$term->tid;
+			return;
+		}
+		$new_term = array('vid' => $vd->vid,'name' => $subc);
+		$new_term = (object) $new_term;
+		taxonomy_term_save($new_term);
+		$node->field_jobcity[$node->language][0]['tid']= $new_term->tid;
+		}
+	}	
+}

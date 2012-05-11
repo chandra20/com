@@ -1,0 +1,82 @@
+  
+  name        = Newswire
+  description = A four column, fixed width theme with configurable color options and fancy block styles using the <a href="http://drupal.org/project/skinr">Skinr module</a>. By <a href="http://adaptivethemes.com/">AdaptiveThemes</a>
+  core        = 7.x
+  engine      = phptemplate
+  screenshot  = screenshot.png
+		
+  regions[leaderboard]               = Leaderboard
+  regions[header]                    = Header box
+  regions[suckerfish]                = Suckerfish menu
+  regions[help]                      = Help
+  regions[content_top_full_width]    = Content top (950px)
+  regions[content_top_left]          = Content top col 1 (470px)
+  regions[content_top_right]         = Content top col 2 (470px)
+  regions[sidebar_first]             = Sidebar first  (col 1)
+  regions[sidebar_second]            = Sidebar third  (col 3)
+  regions[sidebar_third]             = Sidebar fourth (col 4)
+  regions[highlight]                 = Hightlight (col 2 top)
+  regions[content]                   = Main Content   (col 2)
+  regions[content_bottom]            = Content bottom (col 2 bottom)
+  regions[right_top_box]             = Right top box (390px)
+  regions[right_bottom_box]          = Right bottom box (390px)
+  regions[content_bottom_left]       = Content bottom col 1 (470px)
+  regions[content_bottom_right]      = Content bottom col 2 (470px)
+  regions[content_bottom_full_width] = Content bottom (950px)
+  regions[footer]                    = Footer
+  regions[page_top]                  = Page top
+  regions[page_bottom]               = Page bottom
+
+  stylesheets[all][] = reset.css
+  stylesheets[all][] = html-elements.css
+  stylesheets[all][] = forms.css
+  stylesheets[all][] = layout.css
+  stylesheets[all][] = suckerfish.css
+  stylesheets[all][] = style.css
+  
+  scripts[] = js/suckerfish.js
+  
+  settings[newswire_color_global]    = newswire_p-tan
+  settings[newswire_color_highlight] = newswire_red
+
+  skinr[nw-border-style][title] = Border Style
+  skinr[nw-border-style][type] = select
+  skinr[nw-border-style][features][] = block
+  skinr[nw-border-style][description] = Select a border style, the default is none.
+  skinr[nw-border-style][options][1][label] = Single border thin
+  skinr[nw-border-style][options][1][class] = nw-border-style-thin
+  skinr[nw-border-style][options][2][label] = Single border medium
+  skinr[nw-border-style][options][2][class] = nw-border-style-medium
+  skinr[nw-border-style][options][3][label] = Single border thick
+  skinr[nw-border-style][options][3][class] = nw-border-style-thick
+  skinr[nw-border-style][options][4][label] = Double border thin
+  skinr[nw-border-style][options][4][class] = nw-border-style-double
+  skinr[nw-border-style][options][5][label] = No border
+  skinr[nw-border-style][options][5][class] = nw-border-style-none
+  
+  skinr[nw-corners][title] = Rounded Corners
+  skinr[nw-corners][type] = select
+  skinr[nw-corners][features][] = block
+  skinr[nw-corners][description] = Add rounded corners block for Gecko and Webkit browsers (IE always gets square corners).
+  skinr[nw-corners][options][1][label] = 3px
+  skinr[nw-corners][options][1][class] = nw-corners-3px
+  skinr[nw-corners][options][2][label] = 6px
+  skinr[nw-corners][options][2][class] = nw-corners-6px
+  skinr[nw-corners][options][3][label] = 12px
+  skinr[nw-corners][options][3][class] = nw-corners-12px
+  
+  skinr[nw-background-fill][title] = Background fill
+  skinr[nw-background-fill][type] = select
+  skinr[nw-background-fill][features][] = block
+  skinr[nw-background-fill][description] = Add background fill to blocks.
+  skinr[nw-background-fill][options][1][label] = Light fill
+  skinr[nw-background-fill][options][1][class] = nw-background-fill-light
+  skinr[nw-background-fill][options][2][label] = Dark fill
+  skinr[nw-background-fill][options][2][class] = nw-background-fill-dark
+
+; Information added by drupal.org packaging script on 2011-02-25
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "newswire"
+datestamp = "1298619709"
+
